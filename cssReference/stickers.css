@@ -1,0 +1,28 @@
+.sticker {
+  grid-column-gap: .272em;
+  grid-row-gap: .272em;
+  box-shadow: 0 0 1px 0 var(--light__shadow_clv);
+  letter-spacing: -.004em;
+  border-radius: .272em;
+  justify-content: center;
+  align-items: center;
+  padding: .272em .618em;
+  font-size: .835em;
+  font-weight: 500;
+  line-height: 1.272;
+  display: flex;
+  overflow: hidden;
+}
+
+.sticker.bg-light__tertiary {
+  color: var(--light__ontertiary_clv\<deleted\|variable-049a7af9-0f06-5c7b-c26e-2ffa8400e607\>);
+}
+
+.sticker.bg-dark__success.fix {
+  font-size: 13.36px;
+}
+
+.stickers-section {
+  max-width: 100%;
+  overflow: hidden;
+}

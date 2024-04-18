@@ -1,0 +1,130 @@
+.button__text {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 100em;
+  color: var(--light__primary_clv);
+  display: inline-block;
+  grid-column-gap: .485867em;
+  grid-row-gap: .485867em;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: .485867em 1em;
+  position: relative;
+  text-decoration: none;
+}
+
+.button__text.w--current {
+  background-color: #dde1ff;
+}
+
+.button__text.end-icon {
+  padding-right: .618em;
+}
+
+.button__text.start-icon {
+  padding-left: .618em;
+}
+
+.button__text.large {
+  font-size: 1.272em;
+}
+
+.button__content {
+  align-items: center;
+  display: flex;
+  grid-column-gap: calc(1.272em / 2.618);
+  grid-row-gap: calc(1.272em / 2.618);
+  justify-content: center;
+}
+
+.button__outline {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #727272;
+  border-radius: 100em;
+  color: var(--light__primary_clv);
+  display: inline-block;
+  grid-column-gap: .485867em;
+  grid-row-gap: .485867em;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: .485867em 1em;
+  position: relative;
+  text-decoration: none;
+}
+
+.button__outline.end-icon {
+  padding-right: .618em;
+}
+
+.button__outline.large {
+  font-size: 1.272em;
+}
+
+.button__outline.start-icon {
+  padding-left: .618em;
+  padding-right: 1.27201em;
+}
+
+.button__outline.start-icon.end-icon {
+  padding-left: .618em;
+  padding-right: .618em;
+}
+
+.button__outline.start-icon.bg-dark__error {
+  border-color: var(--dark__outline_clv);
+}
+
+.button__outline.start-icon.content__dark-error {
+  border-color: var(--dark__outline_clv);
+  color: var(--dark__error_clv);
+}
+
+.button__outline.color__dark-primary {
+  color: var(--dark__primary_clv);
+}
+
+.button {
+  align-items: center;
+  background-color: var(--light__primary_clv);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 100em;
+  color: var(--light__onprimary_clv);
+  display: inline-block;
+  grid-column-gap: .485867em;
+  grid-row-gap: .485867em;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: .485867em 1em;
+  position: relative;
+  text-decoration: none;
+  white-space: normal;
+  word-break: keep-all;
+}
+
+.button.large {
+  font-size: 1.272em;
+}
+
+.button.start-icon {
+  padding: .485867em 1.27201em .485867em .618029em;
+  white-space: nowrap;
+}
+
+.button.end-icon {
+  padding-right: .618em;
+}
+
+.button.flex-basis {
+  flex: none;
+}
+
+.start-icon.end-icon {
+  padding-left: .618em;
+}
+
+.end-icon {
+  padding-left: 1em;
+  padding-right: .618em;
+}

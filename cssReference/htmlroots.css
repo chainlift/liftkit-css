@@ -1,0 +1,71 @@
+body {
+  background-color: var(--light__background_clv);
+  color: var(--light__onsurface_clv);
+  font-family: Inter, sans-serif;
+  font-size: 1vw;
+  letter-spacing: -.011em;
+  line-height: 20px;
+}
+
+/* Reset all the default HTML element margins*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+a {
+  color: var(--light__primary_clv);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 40px;
+}
+
+ol {
+  line-height: 1.618;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding-left: 40px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+label {
+  display: block;
+  font-size: .835em;
+  font-weight: 500;
+  letter-spacing: -.1px;
+  line-height: 1.272;
+  margin-bottom: 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+blockquote {
+  border-left: 5px solid var(--light__secondarycontainer_clv\<deleted\|variable-b897adfb-257a-74dc-d987-3be939fd2c69\>);
+  font-size: 1em;
+  line-height: 1.618;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 0 1.618em;
+}
+
+figcaption {
+  margin-top: 5px;
+  text-align: center;
+}

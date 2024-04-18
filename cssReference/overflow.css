@@ -1,0 +1,19 @@
+.overflow__hidden {
+  overflow: hidden;
+}
+
+.overflow__visible {
+  overflow: visible;
+}
+
+.overflow__scroll {
+  overflow: scroll;
+}
+
+.overflow__auto {
+  overflow: auto;
+}
+
+.overflow-x {
+  padding: 8px;
+}

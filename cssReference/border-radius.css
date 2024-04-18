@@ -1,0 +1,44 @@
+.border-radius__xxs {
+  border-radius: .06em;
+}
+
+.border-radius__xs {
+  border-radius: .129em;
+}
+
+.border-radius__s {
+  border-radius: .272em;
+}
+
+.border-radius__m {
+  border-radius: .618em;
+}
+
+.border-radius__l {
+  border-radius: 1.058em;
+}
+
+.border-radius__xl {
+  border-radius: 1.618em;
+}
+
+.border-radius__xxl {
+  border-radius: 2.235em;
+}
+
+.border-radius__xxl.overflow__hidden {
+  border-radius: 2.618em;
+}
+
+.border-radius__xxxl {
+  border-radius: 4.235em;
+}
+
+.border-radius__circle {
+  border-radius: 100em;
+}
+
+.border-radius__circle.overflow__hidden.expand {
+  height: 100%;
+  width: 100%;
+}

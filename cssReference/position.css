@@ -1,0 +1,42 @@
+.position__sticky {
+  position: sticky;
+  top: 0;
+}
+
+.position__sticky.nav {
+  z-index: 999;
+}
+
+.position__fixed {
+  bottom: auto;
+  left: 0%;
+  position: fixed;
+  right: 0%;
+  top: 0%;
+  z-index: 99;
+}
+
+.position__rel {
+  position: relative;
+}
+
+.position__absolute {
+  position: absolute;
+}
+
+.position__absolute.cover {
+  bottom: 0%;
+  height: 100%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  width: 100%;
+}
+
+.position__absolute.cover.z0 {
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  z-index: 0;
+}

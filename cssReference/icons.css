@@ -1,0 +1,35 @@
+.material-symbols-outlined {
+  text-decoration: none;
+}
+
+.material-symbols-outlined.scale__1-618 {
+  align-self: center;
+  font-weight: 400;
+}
+
+.material-symbols-outlined.move-down {
+  margin-bottom: -3%;
+}
+
+.material-symbols-outlined.for-sticker {
+  margin-left: -.272em;
+  top: -.5px;
+}
+
+.material-symbols-outlined.fix {
+  font-size: 20.352px;
+}
+
+.material-symbols-outlined.menu_open {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .material-symbols-outlined {
+    text-decoration: none;
+  }
+
+  .material-symbols-outlined.menu_open {
+    display: none;
+  }
+}
