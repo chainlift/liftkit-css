@@ -16,6 +16,17 @@ module.exports = require("tailwindcss/plugin")(
     // important: true,
     // separator: "_",
     theme: {
+    //   colors: {},
+      emSizes: {
+        xxs: ".236em",
+        xs: ".382em",
+        s: ".618em",
+        m: "1em",
+        l: "1.618em",
+        xl: "2.618em",
+        xxl: "3.618em",
+      },
+      spacing: ({ theme }) => theme("emSizes"),
       // extend: {
       // },
     },
