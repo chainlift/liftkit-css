@@ -18,7 +18,7 @@ module.exports = require("tailwindcss/plugin")(
     // important: true,
     // separator: "_",
     theme: {
-      //   colors: {},
+        //   colors: {},
       emSizes: {
         xxs: ".236em",
         xs: ".382em",
@@ -27,6 +27,56 @@ module.exports = require("tailwindcss/plugin")(
         l: "1.618em",
         xl: "2.618em",
         xxl: "3.618em",
+      },
+      fontSize: {
+        "display-1": [
+          "4.235em",
+          { lineHeight: "1.129", letterSpacing: "-0.022em", fontWeight: "400" },
+        ],
+        "display-2": [
+          "2.618em",
+          { lineHeight: "1.272", letterSpacing: "-0.022em", fontWeight: "400" },
+        ],
+        "title-a": [
+          "2.058em",
+          { lineHeight: "1.272", letterSpacing: "-0.022em", fontWeight: "400" },
+        ],
+        "title-b": [
+          "1.618em",
+          { lineHeight: "1.272", letterSpacing: "-0.02em", fontWeight: "400" },
+        ],
+        "title-c": [
+          "1.272em",
+          { lineHeight: "1.272", letterSpacing: "-0.017em", fontWeight: "400" },
+        ],
+        heading: [
+          "1.129em",
+          { lineHeight: "1.272", letterSpacing: "-0.014em", fontWeight: "600" },
+        ],
+        subheading: [
+          "0.885em",
+          { lineHeight: "1.272", letterSpacing: "-0.007em", fontWeight: "400" },
+        ],
+        body: [
+          "1em",
+          { lineHeight: "1.618", letterSpacing: "-0.011em", fontWeight: "400" },
+        ],
+        callout: [
+          "0.943em",
+          { lineHeight: "1.272", letterSpacing: "-0.009em", fontWeight: "400" },
+        ],
+        label: [
+          "0.835em",
+          { lineHeight: "1.272", letterSpacing: "-0.004em", fontWeight: "500" },
+        ],
+        caption: [
+          "0.786em",
+          { lineHeight: "1.272", letterSpacing: "-0.007em", fontWeight: "400" },
+        ],
+        overline: [
+          "0.786em",
+          { lineHeight: "1.272", letterSpacing: "0.0618em", fontWeight: "400" },
+        ],
       },
       spacing: ({ theme }) => theme("emSizes"),
       borderRadius: {
