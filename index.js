@@ -1,3 +1,5 @@
+/** @type {import('tailwindcss').Config} */
+
 module.exports = require("tailwindcss/plugin")(
   function ({
     addBase,
@@ -27,6 +29,19 @@ module.exports = require("tailwindcss/plugin")(
         xxl: "3.618em",
       },
       spacing: ({ theme }) => theme("emSizes"),
+      borderRadius: {
+        none: "0px",
+        xxs: ".06em",
+        xs: ".129em",
+        s: "0.272em",
+        DEFAULT: "0.618em",
+        m: "0.618m",
+        lg: "1.058em",
+        xl: "1.618em",
+        xxl: "2.235em",
+        xxxl: "4.235em",
+        circle: "100em",
+      },
       boxShadow: {
         soft: "0 0 1px rgb(0, 0, 0), 0 12px 24px -4px rgb(21, 19, 22/ .05);",
         1: "0 0 1px 0 rgb(0, 0, 0);",
