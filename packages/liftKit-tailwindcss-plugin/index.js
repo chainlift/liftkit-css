@@ -7,7 +7,7 @@ module.exports = plugin.withOptions(
     var materialColors = tailwindThemeFromColor(
       options?.colorsMap || { primary: "#ff0000" },
       options?.scheme || "content",
-      options?.contrast || 0,
+      options?.contrast || 0
     );
     // const colorsMap = options.colorsMap ?? { primary: "#ff0000" };
     return function ({
@@ -34,7 +34,7 @@ module.exports = plugin.withOptions(
     var materialColors = tailwindThemeFromColor(
       options?.colorsMap || { primary: "#ff0000" },
       options?.scheme || "content",
-      options?.contrast || 0,
+      options?.contrast || 0
     );
     const boxShadows = require("./themes/shadows.json");
 
@@ -152,6 +152,11 @@ module.exports = plugin.withOptions(
           ],
         },
         extend: {
+          borderRadius: ({ theme }) => ({
+            none: "0px",
+            ...theme("spacing"),
+            circle: "100em",
+          }),
           spacing: {
             "2xs": "0.236em",
             xs: " 0.382em",
@@ -168,5 +173,5 @@ module.exports = plugin.withOptions(
         },
       },
     };
-  },
+  }
 );
