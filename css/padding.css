@@ -1,43 +1,98 @@
 @import "globals.css";
 
+.p-top__xxs {
+  padding-top: var(--xxs);
+}
+.p-top__xs {
+  padding-top: var(--xs);
+}
+.p-top__s {
+  padding-top: var(--s);
+}
+.p-top__m {
+  padding-top: var(--m);
+}
+.p-top__l {
+  padding-top: var(--l);
+}
+.p-top__xl {
+  padding-top: var(--xl);
+}
+.p-top__xxl {
+  padding-top: var(--xxl);
+}
 
-.p-top__xxs { padding-top: var(--xxs); }
-.p-top__xs { padding-top: var(--xs); }
-.p-top__s { padding-top: var(--s); }
-.p-top__m { padding-top: var(--m); }
-.p-top__l { padding-top: var(--l); }
-.p-top__xl { padding-top: var(--xl); }
-.p-top__xxl { padding-top: var(--xxl); }
+.p-right__xxs {
+  padding-right: var(--xxs);
+}
+.p-right__xs {
+  padding-right: var(--xs);
+}
+.p-right__s {
+  padding-right: var(--s);
+}
+.p-right__m {
+  padding-right: var(--m);
+}
+.p-right__l {
+  padding-right: var(--l);
+}
+.p-right__xl {
+  padding-right: var(--xl);
+}
+.p-right__xxl {
+  padding-right: var(--xxl);
+}
 
-.p-right__xxs { padding-right: var(--xxs); }
-.p-right__xs { padding-right: var(--xs); }
-.p-right__s { padding-right: var(--s); }
-.p-right__m { padding-right: var(--m); }
-.p-right__l { padding-right: var(--l); }
-.p-right__xl { padding-right: var(--xl); }
-.p-right__xxl { padding-right: var(--xxl); }
+.p-bottom__xxs {
+  padding-bottom: var(--xxs);
+}
+.p-bottom__xs {
+  padding-bottom: var(--xs);
+}
+.p-bottom__s {
+  padding-bottom: var(--s);
+}
+.p-bottom__m {
+  padding-bottom: var(--m);
+}
+.p-bottom__l {
+  padding-bottom: var(--l);
+}
+.p-bottom__xl {
+  padding-bottom: var(--xl);
+}
+.p-bottom__xxl {
+  padding-bottom: var(--xxl);
+}
 
-.p-bottom__xxs { padding-bottom: var(--xxs); }
-.p-bottom__xs { padding-bottom: var(--xs); }
-.p-bottom__s { padding-bottom: var(--s); }
-.p-bottom__m { padding-bottom: var(--m); }
-.p-bottom__l { padding-bottom: var(--l); }
-.p-bottom__xl { padding-bottom: var(--xl); }
-.p-bottom__xxl { padding-bottom: var(--xxl); }
-
-.p-left__xxs { padding-left: var(--xxs); }
-.p-left__xs { padding-left: var(--xs); }
-.p-left__s { padding-left: var(--s); }
-.p-left__m { padding-left: var(--m); }
-.p-left__l { padding-left: var(--l); }
-.p-left__xl { padding-left: var(--xl); }
-.p-left__xxl { padding-left: var(--xxl); }
+.p-left__xxs {
+  padding-left: var(--xxs);
+}
+.p-left__xs {
+  padding-left: var(--xs);
+}
+.p-left__s {
+  padding-left: var(--s);
+}
+.p-left__m {
+  padding-left: var(--m);
+}
+.p-left__l {
+  padding-left: var(--l);
+}
+.p-left__xl {
+  padding-left: var(--xl);
+}
+.p-left__xxl {
+  padding-left: var(--xxl);
+}
 
 .display1.p-top__xxs,
 .display2.p-top__xxs,
-.titleA.p-top__xxs,
-.titleB.p-top__xxs,
-.titleC.p-top__xxs,
+.title1.p-top__xxs,
+.title2.p-top__xxs,
+.title3.p-top__xxs,
 .heading.p-top__xxs,
 .subheading.p-top__xxs,
 .body.p-top__xxs,
@@ -47,9 +102,9 @@
 .overline.p-top__xxs,
 .display1__bold.p-top__xxs,
 .display2__bold.p-top__xxs,
-.titleA__bold.p-top__xxs,
-.titleB__bold.p-top__xxs,
-.titleC__bold.p-top__xxs,
+.title1__bold.p-top__xxs,
+.title2__bold.p-top__xxs,
+.title3__bold.p-top__xxs,
 .heading__bold.p-top__xxs,
 .subheading__bold.p-top__xxs,
 .body__bold.p-top__xxs,
@@ -60,12 +115,11 @@
   padding-top: var(--xxs);
 }
 
-
 .display1.p-top__xs,
 .display2.p-top__xs,
-.titleA.p-top__xs,
-.titleB.p-top__xs,
-.titleC.p-top__xs,
+.title1.p-top__xs,
+.title2.p-top__xs,
+.title3.p-top__xs,
 .heading.p-top__xs,
 .subheading.p-top__xs,
 .body.p-top__xs,
@@ -75,9 +129,9 @@
 .overline.p-top__xs,
 .display1__bold.p-top__xs,
 .display2__bold.p-top__xs,
-.titleA__bold.p-top__xs,
-.titleB__bold.p-top__xs,
-.titleC__bold.p-top__xs,
+.title1__bold.p-top__xs,
+.title2__bold.p-top__xs,
+.title3__bold.p-top__xs,
 .heading__bold.p-top__xs,
 .subheading__bold.p-top__xs,
 .body__bold.p-top__xs,
@@ -90,9 +144,9 @@
 
 .display1.p-top__s,
 .display2.p-top__s,
-.titleA.p-top__s,
-.titleB.p-top__s,
-.titleC.p-top__s,
+.title1.p-top__s,
+.title2.p-top__s,
+.title3.p-top__s,
 .heading.p-top__s,
 .subheading.p-top__s,
 .body.p-top__s,
@@ -102,9 +156,9 @@
 .overline.p-top__s,
 .display1__bold.p-top__s,
 .display2__bold.p-top__s,
-.titleA__bold.p-top__s,
-.titleB__bold.p-top__s,
-.titleC__bold.p-top__s,
+.title1__bold.p-top__s,
+.title2__bold.p-top__s,
+.title3__bold.p-top__s,
 .heading__bold.p-top__s,
 .subheading__bold.p-top__s,
 .body__bold.p-top__s,
@@ -118,9 +172,9 @@
 
 .display1.p-top__m,
 .display2.p-top__m,
-.titleA.p-top__m,
-.titleB.p-top__m,
-.titleC.p-top__m,
+.title1.p-top__m,
+.title2.p-top__m,
+.title3.p-top__m,
 .heading.p-top__m,
 .subheading.p-top__m,
 .body.p-top__m,
@@ -130,9 +184,9 @@
 .overline.p-top__m,
 .display1__bold.p-top__m,
 .display2__bold.p-top__m,
-.titleA__bold.p-top__m,
-.titleB__bold.p-top__m,
-.titleC__bold.p-top__m,
+.title1__bold.p-top__m,
+.title2__bold.p-top__m,
+.title3__bold.p-top__m,
 .heading__bold.p-top__m,
 .subheading__bold.p-top__m,
 .body__bold.p-top__m,
@@ -145,9 +199,9 @@
 
 .display1.p-top__l,
 .display2.p-top__l,
-.titleA.p-top__l,
-.titleB.p-top__l,
-.titleC.p-top__l,
+.title1.p-top__l,
+.title2.p-top__l,
+.title3.p-top__l,
 .heading.p-top__l,
 .subheading.p-top__l,
 .body.p-top__l,
@@ -157,9 +211,9 @@
 .overline.p-top__l,
 .display1__bold.p-top__l,
 .display2__bold.p-top__l,
-.titleA__bold.p-top__l,
-.titleB__bold.p-top__l,
-.titleC__bold.p-top__l,
+.title1__bold.p-top__l,
+.title2__bold.p-top__l,
+.title3__bold.p-top__l,
 .heading__bold.p-top__l,
 .subheading__bold.p-top__l,
 .body__bold.p-top__l,
@@ -172,9 +226,9 @@
 
 .display1.p-top__xl,
 .display2.p-top__xl,
-.titleA.p-top__xl,
-.titleB.p-top__xl,
-.titleC.p-top__xl,
+.title1.p-top__xl,
+.title2.p-top__xl,
+.title3.p-top__xl,
 .heading.p-top__xl,
 .subheading.p-top__xl,
 .body.p-top__xl,
@@ -184,9 +238,9 @@
 .overline.p-top__xl,
 .display1__bold.p-top__xl,
 .display2__bold.p-top__xl,
-.titleA__bold.p-top__xl,
-.titleB__bold.p-top__xl,
-.titleC__bold.p-top__xl,
+.title1__bold.p-top__xl,
+.title2__bold.p-top__xl,
+.title3__bold.p-top__xl,
 .heading__bold.p-top__xl,
 .subheading__bold.p-top__xl,
 .body__bold.p-top__xl,
@@ -199,9 +253,9 @@
 
 .display1.p-top__xxl,
 .display2.p-top__xxl,
-.titleA.p-top__xxl,
-.titleB.p-top__xxl,
-.titleC.p-top__xxl,
+.title1.p-top__xxl,
+.title2.p-top__xxl,
+.title3.p-top__xxl,
 .heading.p-top__xxl,
 .subheading.p-top__xxl,
 .body.p-top__xxl,
@@ -211,9 +265,9 @@
 .overline.p-top__xxl,
 .display1__bold.p-top__xxl,
 .display2__bold.p-top__xxl,
-.titleA__bold.p-top__xxl,
-.titleB__bold.p-top__xxl,
-.titleC__bold.p-top__xxl,
+.title1__bold.p-top__xxl,
+.title2__bold.p-top__xxl,
+.title3__bold.p-top__xxl,
 .heading__bold.p-top__xxl,
 .subheading__bold.p-top__xxl,
 .body__bold.p-top__xxl,
@@ -226,9 +280,9 @@
 
 .display1.p-right__xxs,
 .display2.p-right__xxs,
-.titleA.p-right__xxs,
-.titleB.p-right__xxs,
-.titleC.p-right__xxs,
+.title1.p-right__xxs,
+.title2.p-right__xxs,
+.title3.p-right__xxs,
 .heading.p-right__xxs,
 .subheading.p-right__xxs,
 .body.p-right__xxs,
@@ -238,9 +292,9 @@
 .overline.p-right__xxs,
 .display1__bold.p-right__xxs,
 .display2__bold.p-right__xxs,
-.titleA__bold.p-right__xxs,
-.titleB__bold.p-right__xxs,
-.titleC__bold.p-right__xxs,
+.title1__bold.p-right__xxs,
+.title2__bold.p-right__xxs,
+.title3__bold.p-right__xxs,
 .heading__bold.p-right__xxs,
 .subheading__bold.p-right__xxs,
 .body__bold.p-right__xxs,
@@ -251,12 +305,11 @@
   padding-right: var(--xxs);
 }
 
-
 .display1.p-right__xs,
 .display2.p-right__xs,
-.titleA.p-right__xs,
-.titleB.p-right__xs,
-.titleC.p-right__xs,
+.title1.p-right__xs,
+.title2.p-right__xs,
+.title3.p-right__xs,
 .heading.p-right__xs,
 .subheading.p-right__xs,
 .body.p-right__xs,
@@ -266,9 +319,9 @@
 .overline.p-right__xs,
 .display1__bold.p-right__xs,
 .display2__bold.p-right__xs,
-.titleA__bold.p-right__xs,
-.titleB__bold.p-right__xs,
-.titleC__bold.p-right__xs,
+.title1__bold.p-right__xs,
+.title2__bold.p-right__xs,
+.title3__bold.p-right__xs,
 .heading__bold.p-right__xs,
 .subheading__bold.p-right__xs,
 .body__bold.p-right__xs,
@@ -281,9 +334,9 @@
 
 .display1.p-right__s,
 .display2.p-right__s,
-.titleA.p-right__s,
-.titleB.p-right__s,
-.titleC.p-right__s,
+.title1.p-right__s,
+.title2.p-right__s,
+.title3.p-right__s,
 .heading.p-right__s,
 .subheading.p-right__s,
 .body.p-right__s,
@@ -293,9 +346,9 @@
 .overline.p-right__s,
 .display1__bold.p-right__s,
 .display2__bold.p-right__s,
-.titleA__bold.p-right__s,
-.titleB__bold.p-right__s,
-.titleC__bold.p-right__s,
+.title1__bold.p-right__s,
+.title2__bold.p-right__s,
+.title3__bold.p-right__s,
 .heading__bold.p-right__s,
 .subheading__bold.p-right__s,
 .body__bold.p-right__s,
@@ -309,9 +362,9 @@
 
 .display1.p-right__m,
 .display2.p-right__m,
-.titleA.p-right__m,
-.titleB.p-right__m,
-.titleC.p-right__m,
+.title1.p-right__m,
+.title2.p-right__m,
+.title3.p-right__m,
 .heading.p-right__m,
 .subheading.p-right__m,
 .body.p-right__m,
@@ -321,9 +374,9 @@
 .overline.p-right__m,
 .display1__bold.p-right__m,
 .display2__bold.p-right__m,
-.titleA__bold.p-right__m,
-.titleB__bold.p-right__m,
-.titleC__bold.p-right__m,
+.title1__bold.p-right__m,
+.title2__bold.p-right__m,
+.title3__bold.p-right__m,
 .heading__bold.p-right__m,
 .subheading__bold.p-right__m,
 .body__bold.p-right__m,
@@ -336,9 +389,9 @@
 
 .display1.p-right__l,
 .display2.p-right__l,
-.titleA.p-right__l,
-.titleB.p-right__l,
-.titleC.p-right__l,
+.title1.p-right__l,
+.title2.p-right__l,
+.title3.p-right__l,
 .heading.p-right__l,
 .subheading.p-right__l,
 .body.p-right__l,
@@ -348,9 +401,9 @@
 .overline.p-right__l,
 .display1__bold.p-right__l,
 .display2__bold.p-right__l,
-.titleA__bold.p-right__l,
-.titleB__bold.p-right__l,
-.titleC__bold.p-right__l,
+.title1__bold.p-right__l,
+.title2__bold.p-right__l,
+.title3__bold.p-right__l,
 .heading__bold.p-right__l,
 .subheading__bold.p-right__l,
 .body__bold.p-right__l,
@@ -363,9 +416,9 @@
 
 .display1.p-right__xl,
 .display2.p-right__xl,
-.titleA.p-right__xl,
-.titleB.p-right__xl,
-.titleC.p-right__xl,
+.title1.p-right__xl,
+.title2.p-right__xl,
+.title3.p-right__xl,
 .heading.p-right__xl,
 .subheading.p-right__xl,
 .body.p-right__xl,
@@ -375,9 +428,9 @@
 .overline.p-right__xl,
 .display1__bold.p-right__xl,
 .display2__bold.p-right__xl,
-.titleA__bold.p-right__xl,
-.titleB__bold.p-right__xl,
-.titleC__bold.p-right__xl,
+.title1__bold.p-right__xl,
+.title2__bold.p-right__xl,
+.title3__bold.p-right__xl,
 .heading__bold.p-right__xl,
 .subheading__bold.p-right__xl,
 .body__bold.p-right__xl,
@@ -390,9 +443,9 @@
 
 .display1.p-right__xxl,
 .display2.p-right__xxl,
-.titleA.p-right__xxl,
-.titleB.p-right__xxl,
-.titleC.p-right__xxl,
+.title1.p-right__xxl,
+.title2.p-right__xxl,
+.title3.p-right__xxl,
 .heading.p-right__xxl,
 .subheading.p-right__xxl,
 .body.p-right__xxl,
@@ -402,9 +455,9 @@
 .overline.p-right__xxl,
 .display1__bold.p-right__xxl,
 .display2__bold.p-right__xxl,
-.titleA__bold.p-right__xxl,
-.titleB__bold.p-right__xxl,
-.titleC__bold.p-right__xxl,
+.title1__bold.p-right__xxl,
+.title2__bold.p-right__xxl,
+.title3__bold.p-right__xxl,
 .heading__bold.p-right__xxl,
 .subheading__bold.p-right__xxl,
 .body__bold.p-right__xxl,
@@ -417,9 +470,9 @@
 
 .display1.p-bottom__xxs,
 .display2.p-bottom__xxs,
-.titleA.p-bottom__xxs,
-.titleB.p-bottom__xxs,
-.titleC.p-bottom__xxs,
+.title1.p-bottom__xxs,
+.title2.p-bottom__xxs,
+.title3.p-bottom__xxs,
 .heading.p-bottom__xxs,
 .subheading.p-bottom__xxs,
 .body.p-bottom__xxs,
@@ -429,9 +482,9 @@
 .overline.p-bottom__xxs,
 .display1__bold.p-bottom__xxs,
 .display2__bold.p-bottom__xxs,
-.titleA__bold.p-bottom__xxs,
-.titleB__bold.p-bottom__xxs,
-.titleC__bold.p-bottom__xxs,
+.title1__bold.p-bottom__xxs,
+.title2__bold.p-bottom__xxs,
+.title3__bold.p-bottom__xxs,
 .heading__bold.p-bottom__xxs,
 .subheading__bold.p-bottom__xxs,
 .body__bold.p-bottom__xxs,
@@ -442,12 +495,11 @@
   padding-bottom: var(--xxs);
 }
 
-
 .display1.p-bottom__xs,
 .display2.p-bottom__xs,
-.titleA.p-bottom__xs,
-.titleB.p-bottom__xs,
-.titleC.p-bottom__xs,
+.title1.p-bottom__xs,
+.title2.p-bottom__xs,
+.title3.p-bottom__xs,
 .heading.p-bottom__xs,
 .subheading.p-bottom__xs,
 .body.p-bottom__xs,
@@ -457,9 +509,9 @@
 .overline.p-bottom__xs,
 .display1__bold.p-bottom__xs,
 .display2__bold.p-bottom__xs,
-.titleA__bold.p-bottom__xs,
-.titleB__bold.p-bottom__xs,
-.titleC__bold.p-bottom__xs,
+.title1__bold.p-bottom__xs,
+.title2__bold.p-bottom__xs,
+.title3__bold.p-bottom__xs,
 .heading__bold.p-bottom__xs,
 .subheading__bold.p-bottom__xs,
 .body__bold.p-bottom__xs,
@@ -472,9 +524,9 @@
 
 .display1.p-bottom__s,
 .display2.p-bottom__s,
-.titleA.p-bottom__s,
-.titleB.p-bottom__s,
-.titleC.p-bottom__s,
+.title1.p-bottom__s,
+.title2.p-bottom__s,
+.title3.p-bottom__s,
 .heading.p-bottom__s,
 .subheading.p-bottom__s,
 .body.p-bottom__s,
@@ -484,9 +536,9 @@
 .overline.p-bottom__s,
 .display1__bold.p-bottom__s,
 .display2__bold.p-bottom__s,
-.titleA__bold.p-bottom__s,
-.titleB__bold.p-bottom__s,
-.titleC__bold.p-bottom__s,
+.title1__bold.p-bottom__s,
+.title2__bold.p-bottom__s,
+.title3__bold.p-bottom__s,
 .heading__bold.p-bottom__s,
 .subheading__bold.p-bottom__s,
 .body__bold.p-bottom__s,
@@ -500,9 +552,9 @@
 
 .display1.p-bottom__m,
 .display2.p-bottom__m,
-.titleA.p-bottom__m,
-.titleB.p-bottom__m,
-.titleC.p-bottom__m,
+.title1.p-bottom__m,
+.title2.p-bottom__m,
+.title3.p-bottom__m,
 .heading.p-bottom__m,
 .subheading.p-bottom__m,
 .body.p-bottom__m,
@@ -512,9 +564,9 @@
 .overline.p-bottom__m,
 .display1__bold.p-bottom__m,
 .display2__bold.p-bottom__m,
-.titleA__bold.p-bottom__m,
-.titleB__bold.p-bottom__m,
-.titleC__bold.p-bottom__m,
+.title1__bold.p-bottom__m,
+.title2__bold.p-bottom__m,
+.title3__bold.p-bottom__m,
 .heading__bold.p-bottom__m,
 .subheading__bold.p-bottom__m,
 .body__bold.p-bottom__m,
@@ -527,9 +579,9 @@
 
 .display1.p-bottom__l,
 .display2.p-bottom__l,
-.titleA.p-bottom__l,
-.titleB.p-bottom__l,
-.titleC.p-bottom__l,
+.title1.p-bottom__l,
+.title2.p-bottom__l,
+.title3.p-bottom__l,
 .heading.p-bottom__l,
 .subheading.p-bottom__l,
 .body.p-bottom__l,
@@ -539,9 +591,9 @@
 .overline.p-bottom__l,
 .display1__bold.p-bottom__l,
 .display2__bold.p-bottom__l,
-.titleA__bold.p-bottom__l,
-.titleB__bold.p-bottom__l,
-.titleC__bold.p-bottom__l,
+.title1__bold.p-bottom__l,
+.title2__bold.p-bottom__l,
+.title3__bold.p-bottom__l,
 .heading__bold.p-bottom__l,
 .subheading__bold.p-bottom__l,
 .body__bold.p-bottom__l,
@@ -554,9 +606,9 @@
 
 .display1.p-bottom__xl,
 .display2.p-bottom__xl,
-.titleA.p-bottom__xl,
-.titleB.p-bottom__xl,
-.titleC.p-bottom__xl,
+.title1.p-bottom__xl,
+.title2.p-bottom__xl,
+.title3.p-bottom__xl,
 .heading.p-bottom__xl,
 .subheading.p-bottom__xl,
 .body.p-bottom__xl,
@@ -566,9 +618,9 @@
 .overline.p-bottom__xl,
 .display1__bold.p-bottom__xl,
 .display2__bold.p-bottom__xl,
-.titleA__bold.p-bottom__xl,
-.titleB__bold.p-bottom__xl,
-.titleC__bold.p-bottom__xl,
+.title1__bold.p-bottom__xl,
+.title2__bold.p-bottom__xl,
+.title3__bold.p-bottom__xl,
 .heading__bold.p-bottom__xl,
 .subheading__bold.p-bottom__xl,
 .body__bold.p-bottom__xl,
@@ -581,9 +633,9 @@
 
 .display1.p-bottom__xxl,
 .display2.p-bottom__xxl,
-.titleA.p-bottom__xxl,
-.titleB.p-bottom__xxl,
-.titleC.p-bottom__xxl,
+.title1.p-bottom__xxl,
+.title2.p-bottom__xxl,
+.title3.p-bottom__xxl,
 .heading.p-bottom__xxl,
 .subheading.p-bottom__xxl,
 .body.p-bottom__xxl,
@@ -593,9 +645,9 @@
 .overline.p-bottom__xxl,
 .display1__bold.p-bottom__xxl,
 .display2__bold.p-bottom__xxl,
-.titleA__bold.p-bottom__xxl,
-.titleB__bold.p-bottom__xxl,
-.titleC__bold.p-bottom__xxl,
+.title1__bold.p-bottom__xxl,
+.title2__bold.p-bottom__xxl,
+.title3__bold.p-bottom__xxl,
 .heading__bold.p-bottom__xxl,
 .subheading__bold.p-bottom__xxl,
 .body__bold.p-bottom__xxl,
@@ -608,9 +660,9 @@
 
 .display1.p-left__xxs,
 .display2.p-left__xxs,
-.titleA.p-left__xxs,
-.titleB.p-left__xxs,
-.titleC.p-left__xxs,
+.title1.p-left__xxs,
+.title2.p-left__xxs,
+.title3.p-left__xxs,
 .heading.p-left__xxs,
 .subheading.p-left__xxs,
 .body.p-left__xxs,
@@ -620,9 +672,9 @@
 .overline.p-left__xxs,
 .display1__bold.p-left__xxs,
 .display2__bold.p-left__xxs,
-.titleA__bold.p-left__xxs,
-.titleB__bold.p-left__xxs,
-.titleC__bold.p-left__xxs,
+.title1__bold.p-left__xxs,
+.title2__bold.p-left__xxs,
+.title3__bold.p-left__xxs,
 .heading__bold.p-left__xxs,
 .subheading__bold.p-left__xxs,
 .body__bold.p-left__xxs,
@@ -633,12 +685,11 @@
   padding-left: var(--xxs);
 }
 
-
 .display1.p-left__xs,
 .display2.p-left__xs,
-.titleA.p-left__xs,
-.titleB.p-left__xs,
-.titleC.p-left__xs,
+.title1.p-left__xs,
+.title2.p-left__xs,
+.title3.p-left__xs,
 .heading.p-left__xs,
 .subheading.p-left__xs,
 .body.p-left__xs,
@@ -648,9 +699,9 @@
 .overline.p-left__xs,
 .display1__bold.p-left__xs,
 .display2__bold.p-left__xs,
-.titleA__bold.p-left__xs,
-.titleB__bold.p-left__xs,
-.titleC__bold.p-left__xs,
+.title1__bold.p-left__xs,
+.title2__bold.p-left__xs,
+.title3__bold.p-left__xs,
 .heading__bold.p-left__xs,
 .subheading__bold.p-left__xs,
 .body__bold.p-left__xs,
@@ -663,9 +714,9 @@
 
 .display1.p-left__s,
 .display2.p-left__s,
-.titleA.p-left__s,
-.titleB.p-left__s,
-.titleC.p-left__s,
+.title1.p-left__s,
+.title2.p-left__s,
+.title3.p-left__s,
 .heading.p-left__s,
 .subheading.p-left__s,
 .body.p-left__s,
@@ -675,9 +726,9 @@
 .overline.p-left__s,
 .display1__bold.p-left__s,
 .display2__bold.p-left__s,
-.titleA__bold.p-left__s,
-.titleB__bold.p-left__s,
-.titleC__bold.p-left__s,
+.title1__bold.p-left__s,
+.title2__bold.p-left__s,
+.title3__bold.p-left__s,
 .heading__bold.p-left__s,
 .subheading__bold.p-left__s,
 .body__bold.p-left__s,
@@ -691,9 +742,9 @@
 
 .display1.p-left__m,
 .display2.p-left__m,
-.titleA.p-left__m,
-.titleB.p-left__m,
-.titleC.p-left__m,
+.title1.p-left__m,
+.title2.p-left__m,
+.title3.p-left__m,
 .heading.p-left__m,
 .subheading.p-left__m,
 .body.p-left__m,
@@ -703,9 +754,9 @@
 .overline.p-left__m,
 .display1__bold.p-left__m,
 .display2__bold.p-left__m,
-.titleA__bold.p-left__m,
-.titleB__bold.p-left__m,
-.titleC__bold.p-left__m,
+.title1__bold.p-left__m,
+.title2__bold.p-left__m,
+.title3__bold.p-left__m,
 .heading__bold.p-left__m,
 .subheading__bold.p-left__m,
 .body__bold.p-left__m,
@@ -718,9 +769,9 @@
 
 .display1.p-left__l,
 .display2.p-left__l,
-.titleA.p-left__l,
-.titleB.p-left__l,
-.titleC.p-left__l,
+.title1.p-left__l,
+.title2.p-left__l,
+.title3.p-left__l,
 .heading.p-left__l,
 .subheading.p-left__l,
 .body.p-left__l,
@@ -730,9 +781,9 @@
 .overline.p-left__l,
 .display1__bold.p-left__l,
 .display2__bold.p-left__l,
-.titleA__bold.p-left__l,
-.titleB__bold.p-left__l,
-.titleC__bold.p-left__l,
+.title1__bold.p-left__l,
+.title2__bold.p-left__l,
+.title3__bold.p-left__l,
 .heading__bold.p-left__l,
 .subheading__bold.p-left__l,
 .body__bold.p-left__l,
@@ -745,9 +796,9 @@
 
 .display1.p-left__xl,
 .display2.p-left__xl,
-.titleA.p-left__xl,
-.titleB.p-left__xl,
-.titleC.p-left__xl,
+.title1.p-left__xl,
+.title2.p-left__xl,
+.title3.p-left__xl,
 .heading.p-left__xl,
 .subheading.p-left__xl,
 .body.p-left__xl,
@@ -757,9 +808,9 @@
 .overline.p-left__xl,
 .display1__bold.p-left__xl,
 .display2__bold.p-left__xl,
-.titleA__bold.p-left__xl,
-.titleB__bold.p-left__xl,
-.titleC__bold.p-left__xl,
+.title1__bold.p-left__xl,
+.title2__bold.p-left__xl,
+.title3__bold.p-left__xl,
 .heading__bold.p-left__xl,
 .subheading__bold.p-left__xl,
 .body__bold.p-left__xl,
@@ -772,9 +823,9 @@
 
 .display1.p-left__xxl,
 .display2.p-left__xxl,
-.titleA.p-left__xxl,
-.titleB.p-left__xxl,
-.titleC.p-left__xxl,
+.title1.p-left__xxl,
+.title2.p-left__xxl,
+.title3.p-left__xxl,
 .heading.p-left__xxl,
 .subheading.p-left__xxl,
 .body.p-left__xxl,
@@ -784,9 +835,9 @@
 .overline.p-left__xxl,
 .display1__bold.p-left__xxl,
 .display2__bold.p-left__xxl,
-.titleA__bold.p-left__xxl,
-.titleB__bold.p-left__xxl,
-.titleC__bold.p-left__xxl,
+.title1__bold.p-left__xxl,
+.title2__bold.p-left__xxl,
+.title3__bold.p-left__xxl,
 .heading__bold.p-left__xxl,
 .subheading__bold.p-left__xxl,
 .body__bold.p-left__xxl,
@@ -796,4 +847,3 @@
 .overline__bold.p-left__xxl {
   padding-left: var(--xxl);
 }
-
