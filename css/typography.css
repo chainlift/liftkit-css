@@ -1,0 +1,580 @@
+@import "globals.css";
+
+/* Regular families */
+.display1 {
+  --lineHeightInEms: calc(1em * var(--quarterstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.022em;
+  font-size: calc(1em * var(--wholestep) * var(--wholestep) * var(--wholestep));
+  font-weight: 400;
+  line-height: var(--quarterstep);
+}
+
+.display2 {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.022em;
+  font-size: calc(1em * var(--wholestep) * var(--wholestep));
+  font-weight: 400;
+  line-height: var(--halfstep);
+}
+
+.title1 {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.022em;
+  font-size: calc(1em * var(--wholestep) * var(--halfstep));
+  font-weight: 400;
+  line-height: var(--halfstep);
+}
+
+.title2 {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.02em;
+  font-size: calc(1em * var(--wholestep));
+  font-weight: 400;
+  line-height: var(--halfstep);
+}
+
+.title3 {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.017em;
+  font-size: calc(1em * var(--halfstep));
+  font-weight: 400;
+  line-height: var(--halfstep);
+}
+
+.heading {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.014em;
+  font-size: calc(1em * var(--quarterstep));
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.subheading {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.007em;
+  font-size: calc(1em / var(--quarterstep));
+  font-weight: 400;
+  line-height: var(--halfstep);
+}
+
+.body {
+  --lineHeightInEms: calc(1em * var(--wholestep));
+  --m: calc(var(--base) / var(--wholestep));
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--base) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.011em;
+  cursor: default;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: var(--wholestep);
+}
+
+.callout {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.009em;
+  font-size: calc(1em / var(--eighthstep));
+  font-weight: 400;
+  line-height: var(--halfstep);
+}
+
+.label {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.004em;
+  font-size: calc((1em / var(--quarterstep)) / var(--eighthstep));
+  font-weight: 600;
+  line-height: var(--halfstep);
+  position: static;
+  top: 6.235em;
+}
+
+.caption {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.007em;
+  font-size: calc(1em / var(--halfstep));
+  font-weight: 400;
+  line-height: var(--halfstep);
+}
+
+.overline {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: 0.0618em;
+  text-transform: uppercase;
+  font-size: calc(1em / var(--halfstep));
+  font-weight: 400;
+  line-height: var(--halfstep);
+}
+
+/* Bold Families */
+
+.display1__bold {
+  --lineHeightInEms: calc(1em * var(--quarterstep));
+  --m: calc(var(--base) / var(--wholestep));
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--base) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.022em;
+  font-size: calc(1em * var(--wholestep) * var(--wholestep) * var(--wholestep));
+  font-weight: 700;
+  line-height: var(--quarterstep);
+}
+
+.display2__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.022em;
+  font-size: calc(1em * var(--wholestep) * var(--wholestep));
+  font-weight: 700;
+  line-height: var(--halfstep);
+}
+
+.title1__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.022em;
+  font-size: calc(1em * var(--wholestep) * var(--halfstep));
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.title2__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.02em;
+  font-size: calc(1em * var(--wholestep));
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.title3__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.017em;
+  font-size: calc(1em * var(--halfstep));
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.heading__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.014em;
+  font-size: calc(1em * var(--quarterstep));
+  font-weight: 700;
+  line-height: var(--halfstep);
+}
+
+.subheading__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.007em;
+  font-size: calc(1em / var(--quarterstep));
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.body__bold {
+  --lineHeightInEms: calc(1em * var(--wholestep));
+  --m: calc(var(--base) / var(--wholestep));
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--base) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.011em;
+  padding: 0;
+  font-size: 1em;
+  font-weight: 600;
+  line-height: var(--wholestep);
+  position: relative;
+}
+
+.callout__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.009em;
+  font-size: calc(1em / var(--eighthstep));
+  font-weight: 600;
+  line-height: var(--halfstep);
+  text-decoration: none;
+}
+
+.label__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.004em;
+  font-size: calc((1em / var(--quarterstep)) / var(--eighthstep));
+  font-weight: 700;
+  line-height: var(--halfstep);
+}
+
+.caption__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: -0.007em;
+  font-size: calc(1em / var(--halfstep));
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.overline__bold {
+  --lineHeightInEms: calc(1em * var(--halfstep));
+  --m: calc(var(--lineHeightInEms) / var(--wholestep));
+
+  --s: calc(var(--m) / var(--wholestep));
+  --xs: calc(var(--s) / var(--wholestep));
+  --xxs: calc(var(--xs) / var(--wholestep));
+
+  --l: calc(var(--lineHeightInEms) * var(--wholestep));
+  --xl: calc(var(--l) * var(--wholestep));
+  --xxl: calc(var(--xl) * var(--wholestep));
+
+  letter-spacing: 0.0618em;
+  text-transform: uppercase;
+  font-size: calc(1em / var(--halfstep));
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+@media screen and (max-width: 991px) {
+  body {
+    font-size: 1vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .display1__bold,
+  .display1 {
+    font-size: 3.3301em;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .display1 {
+    font-size: 2.61743em;
+  }
+
+  .display1__bold {
+    font-size: 2.61743em;
+  }
+
+  .display2 {
+    font-size: 2.05818em;
+  }
+
+  .display2__bold {
+    font-size: 2.05818em;
+  }
+
+  .title1__bold,
+  .title1 {
+    font-size: 1.82285em;
+  }
+}
+
+.rich-text {
+  color: var(--light__onsurface_lkv);
+}
+
+.rich-text h1 {
+  color: var(--light__onsurface_lkv);
+  letter-spacing: -0.035em;
+  margin-top: 0;
+  margin-bottom: 1.129em;
+  font-size: calc(1em * var(--wholestep) * var(--wholestep) * var(--wholestep));
+  font-weight: 700;
+  line-height: 1.129;
+}
+
+.rich-text h2 {
+  letter-spacing: -0.022em;
+  margin-top: 0.786096em;
+  margin-bottom: 0.345984em;
+  font-size: calc(1em * var(--wholestep) * var(--wholestep));
+  font-weight: 700;
+  line-height: var(--halfstep);
+}
+
+.rich-text h3 {
+  letter-spacing: -0.022em;
+  margin-top: 0.786096em;
+  margin-bottom: 0.345984em;
+  font-size: 2.058em;
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.rich-text h4 {
+  letter-spacing: -0.02em;
+  margin-top: 0.786096em;
+  margin-bottom: 0.345984em;
+  font-size: 1.618em;
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.rich-text h5 {
+  letter-spacing: -0.017em;
+  margin-top: 0.786096em;
+  margin-bottom: 0.345984em;
+  font-size: 1.272em;
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.rich-text h6 {
+  letter-spacing: -0.014em;
+  margin-top: 0.786096em;
+  margin-bottom: 0.345984em;
+  font-size: 1.129em;
+  font-weight: 600;
+  line-height: var(--halfstep);
+}
+
+.rich-text ol {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.rich-text ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding-left: 2.618em;
+  line-height: var(--wholestep);
+}
+
+.rich-text blockquote {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  padding: 0 1.618em;
+  font-size: 1em;
+  line-height: var(--wholestep);
+}
+
+.rich-text p {
+  color: var(--light__onsurfacevariant_lkv);
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.rich-text a {
+  color: var(--light__primary_lkv);
+  font-weight: 700;
+}
+
+.rich-text figcaption {
+  color: var(--light__onsurfacevariant_lkv);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: calc(1em / var(--halfstep));
+  line-height: var(--wholestep);
+}
+
+.rich-text img {
+  margin-top: 1em;
+  margin-bottom: 11em;
+}

@@ -1,0 +1,159 @@
+:root {
+
+    font-size: 1rem;
+
+    /* Raw size variables */
+
+    --m: 1em;
+    /* It's okay to use em here because the root font size
+                  has been manually set to 1rem */
+
+    --s: calc(var(--m) / var(--scaleFactor));
+    --xs: calc(var(--s) / var(--scaleFactor));
+    --xxs: calc(var(--xs) / var(--scaleFactor));
+
+    --l: calc(var(--m) * var(--scaleFactor));
+    --xl: calc(var(--l) * var(--scaleFactor));
+    --xxl: calc(var(--xl) * var(--scaleFactor));
+
+    /*Increments*/
+
+    --wholestep: 1.618;
+    --halfstep: 1.272;
+    --quarterstep: 1.128;
+
+    /* Colors */
+
+    --light__background_lkv: #fefbff;
+    --light__onsurface_lkv: #1b1b1f;
+    --light__primary_lkv: #4658ac;
+    --light__surfacecontainerlowest_lkv: #fff;
+    --light__onsurfacevariant_lkv: #45464f;
+    --dark__outline_lkv: #90909a;
+    --dark__error_lkv: #ffb4ab;
+    --dark__primary_lkv: #b9c3ff;
+
+    --light__onprimary_lkv: #fefbff;
+    --light__outlinevariant_lkv: #c6c5d0;
+    --light__shadow_lkv: #000;
+    --light__info_lkv: #1758c7;
+    --light__secondary_lkv: #5a5d72;
+    --light__outline_lkv: #767680;
+    --light__inverseprimary_lkv: #b9c3ff;
+    --light__surfacecontainerlow_lkv: #cbdadd;
+    --light__successcontainer_lkv: #92f8b4;
+    --light__onsuccesscontainer_lkv: #00210f;
+    --light__infocontainer_lkv: #dae2ff;
+    --light__oninfocontainer_lkv: #001946;
+    --light__warningcontainer_lkv: #ffdea7;
+    --light__onwarningcontainer_lkv: #271900;
+    --light__errorcontainer_lkv: #ffdad6;
+    --light__onerrorcontainer_lkv: #410002;
+    --light__onsecondarycontainer_lkv: #171b2c;
+    --light__primarycontainer_lkv: #dee1ff;
+    --light__onprimarycontainer_lkv: #001258;
+    --light__onsecondary_lkv: #fff;
+    --light__secondarycontainer_lkv: #dfe1f9;
+    --light__tertiary_lkv: #76546e;
+    --light__ontertiary_lkv: #fff;
+    --light__tertiarycontainer_lkv: #ffd7f2;
+    --light__ontertiarycontainer_lkv: #2d1228;
+    --light__error_lkv: #ba1a1a;
+    --light__onerror_lkv: #fff;
+    --light__onbackground_lkv: #1b1b1f;
+    --light__surface_lkv: #e8eced;
+    --light__surfacevariant_lkv: #e3e1ec;
+    --light__scrim_lkv: #000;
+    --light__inversesurface_lkv: #303034;
+    --light__inverseonsurface_lkv: #f3f0f4;
+    --light__success_lkv: #006d3d;
+    --light__onsuccess_lkv: #fff;
+    --light__warning_lkv: #7c5800;
+    --light__onwarning_lkv: #fff;
+    --light__oninfo_lkv: #fff;
+    --light__primaryfixed_lkv: #dee1ff;
+    --light__onprimaryfixed_lkv: #001258;
+    --light__primaryfixeddim_lkv: #b9c3ff;
+    --light__onprimaryfixedvariant_lkv: #2d3f93;
+    --light__secondaryfixed_lkv: #dfe1f9;
+    --light__onsecondaryfixed_lkv: #171b2c;
+    --light__secondaryfixeddim_lkv: #c3c5dd;
+    --light__onsecondaryfixedvariant_lkv: #434659;
+    --light__tertiaryfixed_lkv: #ffd7f2;
+    --light__ontertiaryfixed_lkv: #2d1228;
+    --light__tertiaryfixeddim_lkv: #e5bad8;
+    --light__ontertiaryfixedvariant_lkv: #5c3c55;
+    --light__surfacedim_lkv: #dcd9de;
+    --light__surfacebright_lkv: #fbf8fd;
+    --light__surfacecontainer_lkv: #f0edf1;
+    --light__surfacecontainerhigh_lkv: #eae7ec;
+    --light__surfacecontainerhighest_lkv: #e4e1e6;
+
+
+
+    --dark__onprimary_lkv: #11277c;
+    --dark__primarycontainer_lkv: #2d3f93;
+    --dark__onprimarycontainer_lkv: #dee1ff;
+    --dark__secondary_lkv: #c3c5dd;
+    --dark__onsecondary_lkv: #2c2f42;
+    --dark__secondarycontainer_lkv: #434659;
+    --dark__onsecondarycontainer_lkv: #dfe1f9;
+    --dark__tertiary_lkv: #e5bad8;
+    --dark__ontertiary_lkv: #44263e;
+    --dark__tertiarycontainer_lkv: #5c3c55;
+    --dark__ontertiarycontainer_lkv: #ffd7f2;
+    --dark__onerror_lkv: #690005;
+    --dark__errorcontainer_lkv: #93000a;
+    --dark__onerrorcontainer_lkv: #ffb4ab;
+    --dark__background_lkv: #1b1b1f;
+    --dark__onbackground_lkv: #e4e1e6;
+    --dark__surface_lkv: #131316;
+    --dark__onsurface_lkv: #e4e1e6;
+    --dark__onsurfacevariant_lkv: #c6c5d0;
+    --dark__surfacevariant_lkv: #45464f;
+    --dark__shadow_lkv: #000;
+    --dark__inversesurface_lkv: #e4e1e6;
+    --dark__scrim_lkv: #000;
+    --dark__inverseonsurface_lkv: #303034;
+    --dark__inverseprimary_lkv: #4658ac;
+    --dark__success_lkv: #76db9a;
+    --dark__onsuccess_lkv: #00391d;
+    --dark__successcontainer_lkv: #00522c;
+    --dark__onsuccesscontainer_lkv: #92f8b4;
+    --dark__warning_lkv: #f7bd48;
+    --dark__onwarning_lkv: #412d00;
+    --dark__warningcontainer_lkv: #5e4200;
+    --dark__onwarningcontainer_lkv: #ffdea7;
+    --dark__info_lkv: #b1c5ff;
+    --dark__oninfo_lkv: #002c71;
+    --dark__infocontainer_lkv: #00419e;
+    --dark__oninfocontainer_lkv: #dae2ff;
+    --dark__primaryfixed_lkv: #dee1ff;
+    --dark__onprimaryfixed_lkv: #001258;
+    --dark__primaryfixeddim_lkv: #b9c3ff;
+    --dark__onprimaryfixedvariant_lkv: #2d3f93;
+    --dark__secondaryfixed_lkv: #dfe1f9;
+    --dark__secondaryfixeddim_lkv: #c3c5dd;
+    --dark__onsecondaryfixed_lkv: #171b2c;
+    --dark__onsecondaryfixedvariant_lkv: #434659;
+    --dark__tertiaryfixed_lkv: #ffd7f2;
+    --dark__ontertiaryfixed_lkv: #2d1228;
+    --dark__tertiaryfixeddim_lkv: #e5bad8;
+    --dark__ontertiaryfixedvariant_lkv: #5c3c55;
+    --dark__surfacedim_lkv: #131316;
+    --dark__surfacebright_lkv: #39393c;
+    --dark__surfacecontainerlowest_lkv: #0e0e11;
+    --dark__surfacecontainer_lkv: #1f1f23;
+    --dark__surfacecontainerhigh_lkv: #2a2a2d;
+    --dark__surfacecontainerhighest_lkv: #353438;
+    --dark__surfacecontainerlow_lkv: #1b1b1f;
+    --dark__outlinevariant_lkv: #45464f;
+
+
+
+    /* Make text look sharper */
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: never;
+}

@@ -1,0 +1,23 @@
+.align-self__start {
+  align-self: start;
+}
+
+.align-self__end {
+  align-self: end;
+}
+
+.align-self__center {
+  align-self: center;
+}
+
+.align-self__stretch {
+  align-self: stretch;
+}
+
+.align-self__baseline {
+  align-self: baseline;
+}
+
+.align-self__auto {
+  align-self: auto;
+}

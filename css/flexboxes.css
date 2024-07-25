@@ -1,0 +1,13 @@
+/* Set display to flex */
+
+.display__flex-h {
+    display: flex;
+  }
+  
+  .display__flex-v {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  

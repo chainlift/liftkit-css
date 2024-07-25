@@ -1,0 +1,33 @@
+@import "globals.css";
+
+.border-radius__xxs {
+  border-radius: var(--xxs);
+}
+
+.border-radius__xs {
+  border-radius: var(--xs);
+}
+
+.border-radius__s {
+  border-radius: var(--s);
+}
+
+.border-radius__m {
+  border-radius: var(--m);
+}
+
+.border-radius__l {
+  border-radius: var(--l);
+}
+
+.border-radius__xl {
+  border-radius: var(--xl);
+}
+
+.border-radius__xxl {
+  border-radius: var(--xxl);
+}
+
+.border-radius__circle {
+  border-radius: 100em;
+}

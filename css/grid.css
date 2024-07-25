@@ -1,0 +1,63 @@
+.grid {
+  display: grid;
+  gap: var(--wholestep);
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__2 {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__3 {
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__4 {
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__5 {
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__6 {
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__7 {
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__8 {
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__9 {
+  grid-template-columns: repeat(9, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__10 {
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: auto;
+}
+
+
+.grid.col__11 {
+  grid-template-columns: repeat(11, 1fr);
+  grid-template-rows: auto;
+}
+
+.grid.col__12 {
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto;
+}
+
