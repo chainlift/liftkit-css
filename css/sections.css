@@ -1,0 +1,39 @@
+.section__leastpadding {
+  padding: 1.618em 4.235em;
+}
+
+.section__lesspadding {
+  padding: 2.618em 4.235em;
+}
+
+.section__default {
+  padding: 4.235em;
+}
+
+.section__morepadding {
+  padding: 6.852em 4.235em;
+}
+
+.section__mostpadding {
+  padding: 11.087em 4.235em;
+}
+
+
+@media screen and (max-width: 991px) {
+  .section__default {
+    padding: 1.618em;
+  }
+
+  .section__mostpadding {
+    padding: 6.85229em 2.058em;
+  }
+
+  .section__lesspadding {
+    padding-left: 1.618em;
+    padding-right: 1.618em;
+  }
+
+  .section__morepadding {
+    padding: 4.23486em 1.618em;
+  }
+}

@@ -1,0 +1,26 @@
+.display__block {
+  display: block;
+}
+
+.display__flex-h {
+  display: flex;
+}
+
+.display__flex-v {
+  display: flex;
+  flex-direction: column;
+}
+
+.display__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+}
+
+.display__inlineBlock{
+  display: inline-block;
+}
+
+.display__none {
+  display: none;
+}

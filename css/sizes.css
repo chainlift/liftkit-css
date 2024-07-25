@@ -1,0 +1,67 @@
+@import "globals.css";
+
+
+
+
+/* Width */
+
+.w-xxs {
+  width: var(--xxs);
+}
+
+.w-xs {
+  width: var(--xs);
+}
+
+.w-s {
+  width: var(--s);
+}
+
+.w-m {
+  width: var(--m);
+}
+
+.w-l {
+  width: var(--l);
+}
+
+.w-xl {
+  width: var(--xl);
+}
+
+.w-xxl {
+  width: var(--xxl);
+}
+
+
+
+
+/* Height */
+
+.h-xxs {
+  height: var(--xxs);
+}
+
+.h-xs {
+  height: var(--xs);
+}
+
+.h-s {
+  height: var(--s);
+}
+
+.h-m {
+  height: var(--m);
+}
+
+.h-l {
+  height: var(--l);
+}
+
+.h-xl {
+  height: var(--xl);
+}
+
+.h-xxl {
+  height: var(--xxl);
+}

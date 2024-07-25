@@ -1,0 +1,31 @@
+/* Gaps */
+@import "globals.css";
+
+
+.gap__xxs {
+  gap: var(--xxs);
+}
+
+.gap__xs {
+  gap: var(--xs);
+}
+
+.gap__s {
+  gap: var(--s);
+}
+
+.gap__m {
+  gap: var(--m);
+}
+
+.gap__l {
+  gap: var(--l);
+}
+
+.gap__xl {
+  gap: var(--xl);
+}
+
+.gap__xxl {
+  gap: var(--xxl);
+}

@@ -1,0 +1,481 @@
+@import "globals.css";
+
+.color-light__primary_lkv {
+  color: var(--light__primary_lkv);
+}
+
+.color-light__onprimary_lkv {
+  color: var(--light__onprimary_lkv);
+}
+
+.color-light__primarycontainer_lkv {
+  color: var(--light__primarycontainer_lkv);
+}
+
+.color-light__onprimarycontainer_lkv {
+  color: var(--light__onprimarycontainer_lkv);
+}
+
+.color-light__secondary_lkv {
+  color: var(--light__secondary_lkv);
+}
+
+.color-light__onsecondary_lkv {
+  color: var(--light__onsecondary_lkv);
+}
+
+.color-light__secondarycontainer_lkv {
+  color: var(--light__secondarycontainer_lkv);
+}
+
+.color-light__onsecondarycontainer_lkv {
+  color: var(--light__onsecondarycontainer_lkv);
+}
+
+.color-light__tertiary_lkv {
+  color: var(--light__tertiary_lkv);
+}
+
+.color-light__ontertiary_lkv {
+  color: var(--light__ontertiary_lkv);
+}
+
+.color-light__tertiarycontainer_lkv {
+  color: var(--light__tertiarycontainer_lkv);
+}
+
+.color-light__ontertiarycontainer_lkv {
+  color: var(--light__ontertiarycontainer_lkv);
+}
+
+.color-light__error_lkv {
+  color: var(--light__error_lkv);
+}
+
+.color-light__onerror_lkv {
+  color: var(--light__onerror_lkv);
+}
+
+.color-light__errorcontainer_lkv {
+  color: var(--light__errorcontainer_lkv);
+}
+
+.color-light__onerrorcontainer_lkv {
+  color: var(--light__onerrorcontainer_lkv);
+}
+
+.color-light__background_lkv {
+  color: var(--light__background_lkv);
+}
+
+.color-light__onbackground_lkv {
+  color: var(--light__onbackground_lkv);
+}
+
+.color-light__surface_lkv {
+  color: var(--light__surface_lkv);
+}
+
+.color-light__onsurface_lkv {
+  color: var(--light__onsurface_lkv);
+}
+
+.color-light__surfacevariant_lkv {
+  color: var(--light__surfacevariant_lkv);
+}
+
+.color-light__onsurfacevariant_lkv {
+  color: var(--light__onsurfacevariant_lkv);
+}
+
+.color-light__outline_lkv {
+  color: var(--light__outline_lkv);
+}
+
+.color-light__outlinevariant_lkv {
+  color: var(--light__outlinevariant_lkv);
+}
+
+.color-light__shadow_lkv {
+  color: var(--light__shadow_lkv);
+}
+
+.color-light__scrim_lkv {
+  color: var(--light__scrim_lkv);
+}
+
+.color-light__inversesurface_lkv {
+  color: var(--light__inversesurface_lkv);
+}
+
+.color-light__inverseonsurface_lkv {
+  color: var(--light__inverseonsurface_lkv);
+}
+
+.color-light__inverseprimary_lkv {
+  color: var(--light__inverseprimary_lkv);
+}
+
+.color-light__success_lkv {
+  color: var(--light__success_lkv);
+}
+
+.color-light__successcontainer_lkv {
+  color: var(--light__successcontainer_lkv);
+}
+
+.color-light__onsuccess_lkv {
+  color: var(--light__onsuccess_lkv);
+}
+
+.color-light__onsuccesscontainer_lkv {
+  color: var(--light__onsuccesscontainer_lkv);
+}
+
+.color-light__warning_lkv {
+  color: var(--light__warning_lkv);
+}
+
+.color-light__warningcontainer_lkv {
+  color: var(--light__warningcontainer_lkv);
+}
+
+.color-light__onwarning_lkv {
+  color: var(--light__onwarning_lkv);
+}
+
+.color-light__onwarningcontainer_lkv {
+  color: var(--light__onwarningcontainer_lkv);
+}
+
+.color-light__info_lkv {
+  color: var(--light__info_lkv);
+}
+
+.color-light__infocontainer_lkv {
+  color: var(--light__infocontainer_lkv);
+}
+
+.color-light__oninfo_lkv {
+  color: var(--light__oninfo_lkv);
+}
+
+.color-light__oninfocontainer_lkv {
+  color: var(--light__oninfocontainer_lkv);
+}
+
+.color-light__primaryfixed_lkv {
+  color: var(--light__primaryfixed_lkv);
+}
+
+.color-light__primaryfixeddim_lkv {
+  color: var(--light__primaryfixeddim_lkv);
+}
+
+.color-light__onprimaryfixed_lkv {
+  color: var(--light__onprimaryfixed_lkv);
+}
+
+.color-light__onprimaryfixedvariant_lkv {
+  color: var(--light__onprimaryfixedvariant_lkv);
+}
+
+.color-light__secondaryfixed_lkv {
+  color: var(--light__secondaryfixed_lkv);
+}
+
+.color-light__secondaryfixeddim_lkv {
+  color: var(--light__secondaryfixeddim_lkv);
+}
+
+.color-light__onsecondaryfixed_lkv {
+  color: var(--light__onsecondaryfixed_lkv);
+}
+
+.color-light__onsecondaryfixedvariant_lkv {
+  color: var(--light__onsecondaryfixedvariant_lkv);
+}
+
+.color-light__tertiaryfixed_lkv {
+  color: var(--light__tertiaryfixed_lkv);
+}
+
+.color-light__tertiaryfixeddim_lkv {
+  color: var(--light__tertiaryfixeddim_lkv);
+}
+
+.color-light__ontertiaryfixed_lkv {
+  color: var(--light__ontertiaryfixed_lkv);
+}
+
+.color-light__ontertiaryfixedvariant_lkv {
+  color: var(--light__ontertiaryfixedvariant_lkv);
+}
+
+.color-light__surfacedim_lkv {
+  color: var(--light__surfacedim_lkv);
+}
+
+.color-light__surfacebright_lkv {
+  color: var(--light__surfacebright_lkv);
+}
+
+.color-light__surfacecontainerlowest_lkv {
+  color: var(--light__surfacecontainerlowest_lkv);
+}
+
+.color-light__surfacecontainerlow_lkv {
+  color: var(--light__surfacecontainerlow_lkv);
+}
+
+.color-light__surfacecontainer_lkv {
+  color: var(--light__surfacecontainer_lkv);
+}
+
+.color-light__surfacecontainerhigh_lkv {
+  color: var(--light__surfacecontainerhigh_lkv);
+}
+
+.color-light__surfacecontainerhighest_lkv {
+  color: var(--light__surfacecontainerhighest_lkv);
+}
+
+.color-dark__primary_lkv {
+  color: var(--dark__primary_lkv);
+}
+
+.color-dark__onprimary_lkv {
+  color: var(--dark__onprimary_lkv);
+}
+
+.color-dark__primarycontainer_lkv {
+  color: var(--dark__primarycontainer_lkv);
+}
+
+.color-dark__onprimarycontainer_lkv {
+  color: var(--dark__onprimarycontainer_lkv);
+}
+
+.color-dark__secondary_lkv {
+  color: var(--dark__secondary_lkv);
+}
+
+.color-dark__onsecondary_lkv {
+  color: var(--dark__onsecondary_lkv);
+}
+
+.color-dark__secondarycontainer_lkv {
+  color: var(--dark__secondarycontainer_lkv);
+}
+
+.color-dark__onsecondarycontainer_lkv {
+  color: var(--dark__onsecondarycontainer_lkv);
+}
+
+.color-dark__tertiary_lkv {
+  color: var(--dark__tertiary_lkv);
+}
+
+.color-dark__ontertiary_lkv {
+  color: var(--dark__ontertiary_lkv);
+}
+
+.color-dark__tertiarycontainer_lkv {
+  color: var(--dark__tertiarycontainer_lkv);
+}
+
+.color-dark__ontertiarycontainer_lkv {
+  color: var(--dark__ontertiarycontainer_lkv);
+}
+
+.color-dark__error_lkv {
+  color: var(--dark__error_lkv);
+}
+
+.color-dark__onerror_lkv {
+  color: var(--dark__onerror_lkv);
+}
+
+.color-dark__errorcontainer_lkv {
+  color: var(--dark__errorcontainer_lkv);
+}
+
+.color-dark__onerrorcontainer_lkv {
+  color: var(--dark__onerrorcontainer_lkv);
+}
+
+.color-dark__background_lkv {
+  color: var(--dark__background_lkv);
+}
+
+.color-dark__onbackground_lkv {
+  color: var(--dark__onbackground_lkv);
+}
+
+.color-dark__surface_lkv {
+  color: var(--dark__surface_lkv);
+}
+
+.color-dark__onsurface_lkv {
+  color: var(--dark__onsurface_lkv);
+}
+
+.color-dark__surfacevariant_lkv {
+  color: var(--dark__surfacevariant_lkv);
+}
+
+.color-dark__onsurfacevariant_lkv {
+  color: var(--dark__onsurfacevariant_lkv);
+}
+
+.color-dark__outline_lkv {
+  color: var(--dark__outline_lkv);
+}
+
+.color-dark__outlinevariant_lkv {
+  color: var(--dark__outlinevariant_lkv);
+}
+
+.color-dark__shadow_lkv {
+  color: var(--dark__shadow_lkv);
+}
+
+.color-dark__scrim_lkv {
+  color: var(--dark__scrim_lkv);
+}
+
+.color-dark__inversesurface_lkv {
+  color: var(--dark__inversesurface_lkv);
+}
+
+.color-dark__inverseonsurface_lkv {
+  color: var(--dark__inverseonsurface_lkv);
+}
+
+.color-dark__inverseprimary_lkv {
+  color: var(--dark__inverseprimary_lkv);
+}
+
+.color-dark__success_lkv {
+  color: var(--dark__success_lkv);
+}
+
+.color-dark__successcontainer_lkv {
+  color: var(--dark__successcontainer_lkv);
+}
+
+.color-dark__onsuccess_lkv {
+  color: var(--dark__onsuccess_lkv);
+}
+
+.color-dark__onsuccesscontainer_lkv {
+  color: var(--dark__onsuccesscontainer_lkv);
+}
+
+.color-dark__warning_lkv {
+  color: var(--dark__warning_lkv);
+}
+
+.color-dark__warningcontainer_lkv {
+  color: var(--dark__warningcontainer_lkv);
+}
+
+.color-dark__onwarning_lkv {
+  color: var(--dark__onwarning_lkv);
+}
+
+.color-dark__onwarningcontainer_lkv {
+  color: var(--dark__onwarningcontainer_lkv);
+}
+
+.color-dark__info_lkv {
+  color: var(--dark__info_lkv);
+}
+
+.color-dark__infocontainer_lkv {
+  color: var(--dark__infocontainer_lkv);
+}
+
+.color-dark__oninfo_lkv {
+  color: var(--dark__oninfo_lkv);
+}
+
+.color-dark__oninfocontainer_lkv {
+  color: var(--dark__oninfocontainer_lkv);
+}
+
+.color-dark__primaryfixed_lkv {
+  color: var(--dark__primaryfixed_lkv);
+}
+
+.color-dark__primaryfixeddim_lkv {
+  color: var(--dark__primaryfixeddim_lkv);
+}
+
+.color-dark__onprimaryfixed_lkv {
+  color: var(--dark__onprimaryfixed_lkv);
+}
+
+.color-dark__onprimaryfixedvariant_lkv {
+  color: var(--dark__onprimaryfixedvariant_lkv);
+}
+
+.color-dark__secondaryfixed_lkv {
+  color: var(--dark__secondaryfixed_lkv);
+}
+
+.color-dark__secondaryfixeddim_lkv {
+  color: var(--dark__secondaryfixeddim_lkv);
+}
+
+.color-dark__onsecondaryfixed_lkv {
+  color: var(--dark__onsecondaryfixed_lkv);
+}
+
+.color-dark__onsecondaryfixedvariant_lkv {
+  color: var(--dark__onsecondaryfixedvariant_lkv);
+}
+
+.color-dark__tertiaryfixed_lkv {
+  color: var(--dark__tertiaryfixed_lkv);
+}
+
+.color-dark__tertiaryfixeddim_lkv {
+  color: var(--dark__tertiaryfixeddim_lkv);
+}
+
+.color-dark__ontertiaryfixed_lkv {
+  color: var(--dark__ontertiaryfixed_lkv);
+}
+
+.color-dark__ontertiaryfixedvariant_lkv {
+  color: var(--dark__ontertiaryfixedvariant_lkv);
+}
+
+.color-dark__surfacedim_lkv {
+  color: var(--dark__surfacedim_lkv);
+}
+
+.color-dark__surfacebright_lkv {
+  color: var(--dark__surfacebright_lkv);
+}
+
+.color-dark__surfacecontainerlowest_lkv {
+  color: var(--dark__surfacecontainerlowest_lkv);
+}
+
+.color-dark__surfacecontainerlow_lkv {
+  color: var(--dark__surfacecontainerlow_lkv);
+}
+
+.color-dark__surfacecontainer_lkv {
+  color: var(--dark__surfacecontainer_lkv);
+}
+
+.color-dark__surfacecontainerhigh_lkv {
+  color: var(--dark__surfacecontainerhigh_lkv);
+}
+
+.color-dark__surfacecontainerhighest_lkv {
+  color: var(--dark__surfacecontainerhighest_lkv);
+}

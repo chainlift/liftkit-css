@@ -1,0 +1,191 @@
+@import "globals.css";
+/*
+
+Buttons
+
+Buttons have two primary properties, in theory: Style and Size. 
+
+Default buttons are styled using the following base classes:
+
+- .button
+- .button__outlined
+- .button__text
+
+To make a button "large," you simply add the combo class .large to the button. As in:
+- .button.large
+- .button__outlined.large
+- .button__text.large
+
+If the button has a start icon, add the combo class .start-icon. 
+If the button has an end icon, add the combo class .end-icon.
+
+This applies to default and large buttons. 
+
+The actual content of a button is contained within a div with the class .button__content. This div is a flex container that centers its children.
+
+The reason for the .button__content div is to allow the outermost button wrapper to have a display of inline-block. This makes it much friendlier to work with.
+Otherwise, it would just always take up the full available width.
+
+Finally, each button also contains a state-layer. The state layer is a div that covers the entirety of the button, and its background color should be set to the color of the button's text.
+
+Button background color is set using background color combo classes. See /backgroundcolors.css. These combo classes will automatically assign the correct text color to the button.
+
+State-layers are invisible by default and are controlled by global.css transitions and pointer events on the parent element.
+
+*/
+
+
+
+/*Globals*/
+
+
+/* Declare base button styles and their larger variants */
+.button {
+  align-items: center;
+  background-color: var(--light__primary_lkv);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 100em;
+  color: var(--light__onprimary_lkv);
+  display: inline-block;
+  grid-column-gap: .485867em;
+  grid-row-gap: .485867em;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: .485867em 1em;
+  position: relative;
+  text-decoration: none;
+  white-space: normal;
+  word-break: keep-all;
+  transition: all 0.2s ease;
+}
+
+.button__outline {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #727272;
+  border-radius: 100em;
+  color: var(--light__primary_lkv);
+  display: inline-block;
+  grid-column-gap: .485867em;
+  grid-row-gap: .485867em;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: .485867em 1em;
+  position: relative;
+  text-decoration: none;
+}
+
+.button__text {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 100em;
+  color: var(--light__primary_lkv);
+  display: inline-block;
+  grid-column-gap: .485867em;
+  grid-row-gap: .485867em;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: .485867em 1em;
+  position: relative;
+  text-decoration: none;
+}
+
+.button.large,
+.button__outline.large,
+.button__text.large {
+  font-size: 1.272em;
+}
+
+.button.vert,
+.button__outline.vert,
+.button__text.vert {
+  border-radius: var(--m);
+  padding: 1em;
+  font-weight: 500;
+}
+
+.button.vert  .material-symbols-outlined,
+.button__outline.vert  .material-symbols-outlined,
+.button__text.vert >.state-layer {
+  font-size: 2.618em;
+  font-weight: 200;
+}
+
+
+
+
+/* Control padding for icons */
+
+.button.start-icon,
+.button__outline.start-icon,
+.button__text.start-icon {
+  padding-left: calc(1.618em / 2.618);
+}
+
+.button.end-icon,
+.button__outline.end-icon,
+.button__text.end-icon {
+  padding-right: calc(1.618em / 2.618);
+}
+
+.button.start-icon.end-icon,
+.button__outline.start-icon.end-icon,
+.button__text.start-icon.end-icon {
+  padding-left: calc(1.618em / 2.618);
+  padding-right: calc(1.618em / 2.618);
+}
+
+.button.large.start-icon,
+.button__outline.large.start-icon .button__text.large.start-icon {
+  padding-left: calc(1.618em / 2.618);
+}
+
+.button.large.end-icon,
+.button__outline.large.end-icon .button__text.large.end-icon {
+  padding-left: calc(1.618em / 2.618);
+}
+
+.button.large.start-icon.end-icon,
+.button__outline.large.start-icon.end-icon .button__text.large.start-icon.end-icon {
+  padding-left: calc(1.618em / 2.618);
+  padding-right: calc(1.618em / 2.618);
+}
+
+/* Control Button Content */
+
+.button-content {
+  align-items: center;
+  display: flex;
+  grid-column-gap: calc(1.272em / 2.618);
+  grid-row-gap: calc(1.272em / 2.618);
+  justify-content: center;
+}
+
+.button-content.vert {
+  flex-flow: column nowrap;
+  gap: 0.272em;
+
+}
+
+.small {
+  font-size: 0.885em;
+}
+
+.button__icon {
+  align-items: center;
+  background-color: var(--light__primary_lkv);
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 100em;
+  color: var(--light__onprimary_lkv);
+  display: inline-block;
+  grid-column-gap: .485867em;
+  grid-row-gap: .485867em;
+  justify-content: flex-start;
+  overflow: hidden;
+  padding: .485867em;
+  position: relative;
+  text-decoration: none;
+  white-space: normal;
+  word-break: keep-all;
+}

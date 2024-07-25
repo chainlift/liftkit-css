@@ -1,0 +1,47 @@
+/* These are done in increments of 10, but you can create your own 
+/* such as ".opacity__5 {opacity: 0.05}, etc. 
+*/
+
+.opacity__0 {
+  opacity: 0.0;
+}
+
+.opacity__10 {
+  opacity: 0.1;
+}
+
+.opacity__20 {
+  opacity: 0.2;
+}
+
+.opacity__30 {
+  opacity: 0.3;
+}
+
+.opacity__40 {
+  opacity: 0.4;
+}
+
+.opacity__50 {
+  opacity: 0.5;
+}
+
+.opacity__60 {
+  opacity: 0.6;
+}
+
+.opacity__70 {
+  opacity: 0.7;
+}
+
+.opacity__80 {
+  opacity: 0.8;
+}
+
+.opacity__90 {
+  opacity: 0.9;
+}
+
+.opacity__100 {
+  opacity: 1.0;
+}
