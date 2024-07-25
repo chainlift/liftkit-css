@@ -2,30 +2,30 @@
 @import "globals.css";
 
 
-.gap__xxs {
-  gap: var(--xxs);
+.gap__2xs {
+  gap: var(--2xs);
 }
 
 .gap__xs {
   gap: var(--xs);
 }
 
-.gap__s {
-  gap: var(--s);
+.gap__sm {
+  gap: var(--sm);
 }
 
-.gap__m {
-  gap: var(--m);
+.gap__md {
+  gap: var(--md);
 }
 
-.gap__l {
-  gap: var(--l);
+.gap__lg {
+  gap: var(--lg);
 }
 
 .gap__xl {
   gap: var(--xl);
 }
 
-.gap__xxl {
-  gap: var(--xxl);
+.gap__2xl {
+  gap: var(--2xl);
 }
