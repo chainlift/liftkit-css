@@ -3,7 +3,7 @@
 /* Regular families */
 .display1 {
   --lineHeightInEms: calc(1em * var(--quarterstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -23,7 +23,7 @@
 
 .display2 {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -41,7 +41,7 @@
 
 .title1 {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -59,7 +59,7 @@
 
 .title2 {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -77,7 +77,7 @@
 
 .title3 {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -95,7 +95,7 @@
 
 .heading {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -113,7 +113,7 @@
 
 .subheading {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -149,7 +149,7 @@
 
 .callout {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -167,7 +167,7 @@
 
 .label {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -187,7 +187,7 @@
 
 .caption {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -205,7 +205,7 @@
 
 .overline {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -243,7 +243,7 @@
 
 .display2__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -261,7 +261,7 @@
 
 .title1__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -279,7 +279,7 @@
 
 .title2__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -297,7 +297,7 @@
 
 .title3__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -315,7 +315,7 @@
 
 .heading__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -333,7 +333,7 @@
 
 .subheading__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -370,7 +370,7 @@
 
 .callout__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -389,7 +389,7 @@
 
 .label__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -407,7 +407,7 @@
 
 .caption__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
@@ -425,7 +425,7 @@
 
 .overline__bold {
   --lineHeightInEms: calc(1em * var(--halfstep));
-  --md: calc(var(--lineHeightInEms) * var(--wholestep-dec));
+  --md: 1em;
 
   --sm: calc(var(--lineHeightInEms) * var(--halfstep-dec));
   --xs: calc(var(--lineHeightInEms) * var(--quarterstep-dec));
