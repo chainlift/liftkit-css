@@ -7,6 +7,8 @@
   /* It's okay to use em here because the root font size
                   has been manually set to 1rem */
 
+  --scaleFactor: 1em;
+
   --sm: calc(var(--md) / var(--scaleFactor));
   --xs: calc(var(--sm) / var(--scaleFactor));
   --2xs: calc(var(--xs) / var(--scaleFactor));
