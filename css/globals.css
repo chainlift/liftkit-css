@@ -7,7 +7,7 @@
   /* It's okay to use em here because the root font size
                   has been manually set to 1rem */
 
-  --scaleFactor: 1em;
+  --scaleFactor: 1.618em;
 
   --sm: calc(var(--md) / var(--scaleFactor));
   --xs: calc(var(--sm) / var(--scaleFactor));
@@ -22,6 +22,12 @@
   --wholestep: 1.618;
   --halfstep: 1.272;
   --quarterstep: 1.128;
+  --eighthstep: 1.061;
+
+  --wholestep-dec: 0.618;
+  --halfstep-dec: 0.272;
+  --quarterstep-dec: 0.128;
+  --eighthstep-dec: 0.061;
 
   /* Colors */
 
