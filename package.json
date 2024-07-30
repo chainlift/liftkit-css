@@ -1,0 +1,19 @@
+{
+  "name": "@chainlift/liftkit-css",
+  "version": "1.0.0",
+  "description": "LiftKit is the golden framework for clean, minimal designs. Vanilla CSS framework built with M3 dynamic color, optically-kerned type, and Chainlift's one-of-a-kind golden ratio spacing. ",
+  "main": "index.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chainlift/liftkit-css.git"
+  },
+  "author": "Chainlift",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/chainlift/liftkit-css/issues"
+  },
+  "homepage": "https://github.com/chainlift/liftkit-css#readme"
+}
