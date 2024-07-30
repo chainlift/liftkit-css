@@ -19,15 +19,15 @@
 
   /*Increments*/
 
-  --wholestep: 1.618;
-  --halfstep: 1.272;
-  --quarterstep: 1.128;
-  --eighthstep: 1.061;
+  --wholestep: 1.618; /* always equals the scalefactor */
+  --halfstep: 1.272; /* always equals the sq. root of scalefactor */
+  --quarterstep: 1.128; /* always equals the sq. root of halfstep */
+  --eighthstep: 1.061; /* always equals the sq. root of quarterstep */
 
-  --wholestep-dec: 0.618;
-  --halfstep-dec: 0.272;
-  --quarterstep-dec: 0.128;
-  --eighthstep-dec: 0.061;
+  --wholestep-dec: 0.618; /* equals wholestep - 1 */
+  --halfstep-dec: 0.272; /* equals halfstep - 1 */
+  --quarterstep-dec: 0.128; /* equals quarterstep - 1 */
+  --eighthstep-dec: 0.061; /* equals eighthstep - 1 */
 
   /* Colors */
 
