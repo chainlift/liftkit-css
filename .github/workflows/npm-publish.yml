@@ -16,20 +16,6 @@ jobs:
         with:
           node-version: 16
       - run: npm ci
-
-      - name: Lint CSS files
-        run: |
-          npx stylelint "index.css" "liftkit/**/*.css" --config <(echo '{
-            "extends": "stylelint-config-standard",
-            "rules": {
-              "at-rule-no-unknown": [true, {
-                "ignoreAtRules": ["tailwind", "apply", "variants", "responsive", "screen"]
-              }],
-              "block-no-empty": null,
-              "unit-whitelist": ["em", "rem", "s"]
-            }
-          }')
-
       - run: npm test
 
   publish-npm:
